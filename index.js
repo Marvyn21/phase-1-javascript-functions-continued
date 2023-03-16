@@ -9,7 +9,7 @@ function mondayWork(string = "go to the office") {
 }
 mondayWork();
 
-function wrapAdjective(someSymbol) {
+function wrapAdjective(someSymbol = "*") {
     return function(myString) {
       return `You are ${someSymbol}${myString}${someSymbol}!`;
     }
